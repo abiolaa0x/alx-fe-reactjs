@@ -10,7 +10,7 @@ function App() {
   return (
     <Router>
       <div style={{ minHeight: "100vh", backgroundColor: "#f5f5f5" }}>
-        {/* Header/Navigation */}
+        {/* Header/Navigation */}\
         <header
           style={{
             backgroundColor: "#4CAF50",
@@ -19,7 +19,7 @@ function App() {
             marginBottom: "20px",
           }}
         >
-          <h1 style={{ margin: 0 }}>🍳 Recipe Sharing Application</h1>
+          <h1 style={{ margin: 0 }}>recipe sharing application 🍳</h1>
           <nav style={{ marginTop: "15px" }}>
             <Link
               to="/"

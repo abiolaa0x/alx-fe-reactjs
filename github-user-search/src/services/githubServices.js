@@ -3,16 +3,16 @@ import axios from "axios";
 
 const GITHUB_API_BASE_URL = "https://api.github.com";
 
-// Get API key from environment variables (optional)
+// get API key from environment variables (optional)
 const API_KEY = import.meta.env.VITE_APP_GITHUB_API_KEY;
 
-// Configure axios headers
+// configure axios headers
 const getHeaders = () => {
   const headers = {
     Accept: "application/vnd.github.v3+json",
   };
 
-  // Add authorization header if API key is available
+  // add authorization header if API key is available
   if (API_KEY) {
     headers["Authorization"] = `token ${API_KEY}`;
   }
@@ -21,7 +21,7 @@ const getHeaders = () => {
 };
 
 /**
- * Fetch user data by username
+ * fetch user data by username
  * @param {string} username - GitHub username
  * @returns {Promise} - User data from GitHub API
  */
@@ -38,7 +38,7 @@ export const fetchUserData = async (username) => {
 };
 
 /**
- * Advanced search for GitHub users with filters
+ * advanced search for gitHub users with filters
  * @param {Object} params - Search parameters
  * @param {string} params.username - Username to search (optional)
  * @param {string} params.location - User location (optional)
@@ -55,7 +55,7 @@ export const searchUsers = async ({
   perPage = 10,
 }) => {
   try {
-    // Build query string
+    // build query string
     let queryParts = [];
 
     if (username) {
@@ -70,7 +70,7 @@ export const searchUsers = async ({
       queryParts.push(`repos:>=${minRepos}`);
     }
 
-    // If no query parts, search for all users (not recommended, but handle it)
+    // if no query parts, search for all users (not recommended, but handle it)
     const query = queryParts.length > 0 ? queryParts.join("+") : "type:user";
 
     const response = await axios.get(`${GITHUB_API_BASE_URL}/search/users`, {

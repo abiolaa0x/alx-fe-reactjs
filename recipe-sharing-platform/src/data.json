@@ -1,0 +1,103 @@
+[
+  {
+    "id": 1,
+    "title": "Spaghetti Carbonara",
+    "summary": "A classic Italian pasta dish with eggs, cheese, bacon, and black pepper.",
+    "image": "https://via.placeholder.com/150",
+    "ingredients": [
+      "400g spaghetti",
+      "200g pancetta or bacon",
+      "4 large eggs",
+      "100g Pecorino Romano cheese",
+      "100g Parmesan cheese",
+      "2 cloves garlic",
+      "Salt and black pepper to taste"
+    ],
+    "instructions": [
+      "Cook spaghetti in salted boiling water according to package instructions until al dente.",
+      "While pasta cooks, fry pancetta in a large skillet over medium heat until crispy. Add garlic and cook for 1 minute.",
+      "In a bowl, whisk together eggs, Pecorino, and Parmesan. Season with black pepper.",
+      "Reserve 1 cup pasta cooking water, then drain pasta.",
+      "Remove skillet from heat. Add hot pasta to pancetta, toss well.",
+      "Pour egg mixture over pasta, tossing quickly. Add pasta water as needed to create a creamy sauce.",
+      "Serve immediately with extra cheese and black pepper."
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Chicken Tikka Masala",
+    "summary": "Chunks of grilled chicken (tikka) cooked in a smooth buttery & creamy tomato based gravy.",
+    "image": "https://via.placeholder.com/150",
+    "ingredients": [
+      "800g chicken breast, cubed",
+      "1 cup plain yogurt",
+      "2 tbsp tikka masala spice mix",
+      "400g canned tomatoes",
+      "1 cup heavy cream",
+      "1 large onion, diced",
+      "4 cloves garlic",
+      "1 tbsp ginger, grated",
+      "2 tbsp butter",
+      "Fresh cilantro to serve"
+    ],
+    "instructions": [
+      "Marinate chicken in yogurt and half the spice mix for at least 1 hour.",
+      "Grill or pan-fry marinated chicken until cooked through and slightly charred.",
+      "In a large pot, melt butter and sauté onion until golden.",
+      "Add garlic, ginger, and remaining spices. Cook for 2 minutes until fragrant.",
+      "Add canned tomatoes and simmer for 15 minutes.",
+      "Blend the sauce until smooth, then return to the pot.",
+      "Add cream and grilled chicken. Simmer for 10 minutes.",
+      "Garnish with cilantro and serve with naan or rice."
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Avocado Toast",
+    "summary": "Creamy smashed avocado on toasted sourdough bread topped with eggs and seasonings.",
+    "image": "https://via.placeholder.com/150",
+    "ingredients": [
+      "2 slices sourdough bread",
+      "1 ripe avocado",
+      "2 eggs",
+      "1 lemon, juiced",
+      "Red pepper flakes",
+      "Salt and pepper",
+      "Olive oil"
+    ],
+    "instructions": [
+      "Toast sourdough bread until golden and crispy.",
+      "Halve avocado, remove pit, and scoop flesh into a bowl.",
+      "Mash avocado with lemon juice, salt, and pepper.",
+      "Poach or fry eggs to your preference.",
+      "Spread avocado mixture generously on toast.",
+      "Top each slice with an egg.",
+      "Drizzle with olive oil and sprinkle red pepper flakes to serve."
+    ]
+  },
+  {
+    "id": 4,
+    "title": "Beef Tacos",
+    "summary": "Seasoned ground beef in crispy taco shells with fresh salsa, cheese, and sour cream.",
+    "image": "https://via.placeholder.com/150",
+    "ingredients": [
+      "500g ground beef",
+      "8 taco shells",
+      "1 packet taco seasoning",
+      "1 cup shredded cheddar cheese",
+      "1 cup salsa",
+      "1/2 cup sour cream",
+      "1 cup shredded lettuce",
+      "2 tomatoes, diced"
+    ],
+    "instructions": [
+      "Brown ground beef in a skillet over medium-high heat, breaking it apart.",
+      "Drain excess fat from the beef.",
+      "Add taco seasoning and water per packet instructions. Simmer for 5 minutes.",
+      "Warm taco shells in oven per package directions.",
+      "Fill shells with seasoned beef.",
+      "Top with cheese, lettuce, tomato, salsa, and sour cream.",
+      "Serve immediately while shells are still crispy."
+    ]
+  }
+]
